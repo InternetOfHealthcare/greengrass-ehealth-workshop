@@ -19,4 +19,4 @@ Greengrass is a software that allows you to extend AWS cloud capabilities to loc
 Before we start using Greengrass we need to configure our Raspberry PI AWS credentials for awscli and also be sure you have access to your Pi using SSH.
 
 ### Step #1: Open IAM Console to create an access key
-!(/images/raspberry-config/01.png) 
+![screen](/images/raspberry-config/01.png) 
