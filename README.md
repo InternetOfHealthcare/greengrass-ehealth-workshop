@@ -20,3 +20,18 @@ Before we start using Greengrass we need to configure our Raspberry PI AWS crede
 
 ### Step #1: Open IAM Console to create an access key
 ![screen](/images/raspberry-config/01.png) 
+
+### Step #2: Click in your AWS user
+![screen](/images/raspberry-config/02.png) 
+
+### Step #3: Click "Security Credentials"
+![screen](/images/raspberry-config/03.png) 
+
+### Step #4: Click "Create Access Key" 
+![screen](/images/raspberry-config/04.png) 
+
+### Step #25: Copy the Access Key ID and Secret Access
+
+You can also download a CSV file with your keys!
+
+![screen](/images/raspberry-config/05.png) 
