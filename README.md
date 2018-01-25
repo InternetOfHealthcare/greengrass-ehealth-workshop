@@ -1,30 +1,14 @@
 ![Nursing Icon](/images/aws-nursing-icon.png "Nursery Icon")
-# AWS Alexa Nursing Skill Workshop
+# AWS Greengrass Workshop
 
-A set of e-health workshops to apply AWS technologies for health improving. During this workshop we will show how to develop a Nursing Skill for Alexa to ask about your health data and store into DynamoDB tables.
-
-The conversation will be like this:
-
-* You>> Open nursing skill
-* Alexa>> Welcome to Alexa Nursing Skill, please tell me your name
-* You>> My name is <<Your Name>>
-* Alexa>> Welcome <<Your Name>>, you can ask me about your health
-* You>> Blood Pressure Input
-* Alexa>> What is your sistolic pressure <<Your Name>>
-* My sistolic pressure is 115
-* Alexa>> What is your diastolic pressure <<Your Name>>
-* You>> My diastolic poressure is 75
-* Alexa>> Thanks <<Your name>> 
+This workshop will guide you to use Greengrass running on Raspberry Pi that allows you to run Lambda functions locally.
 
 ## Introduction
-You will learn how to build your own Alexa Skills that can be applied for e-health proposal by taking your health data. As example we provide a complete interaction to ask your name and also your blood pressure. But you will learn how to extend and create your own input interactions for:
-- Glucose
-- Emotional State
-- Weight
-- Blood Exam
+Greengrass is a software that allows you to extend AWS cloud capabilities to local devices, making it possible to collect data and securely communicate with local network and AWS Cloud. Fits very well for IoT solutions as gateway that need to communicate with Bluetooth, Zigbee or any other type of device communication.
 
+![More information about Green Grass](https://docs.aws.amazon.com/greengrass/latest/developerguide/what-is-gg.html)
 
--> ![logo](/images/aws_new_logo.png) <-
+-> ![logo](/images/greengrass.png) <-
 
 ## Table of Content
 
