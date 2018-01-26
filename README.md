@@ -9,7 +9,7 @@ Greengrass is a software that allows you to extend AWS cloud capabilities to loc
 
 ## Table of Content
 
-### [1. Coinfigure your Raspberry Pi](#1configure-your-raspberry-pi)
+### [1. Configure your Raspberry Pi](#1configure-your-raspberry-pi)
 ### [2. Create your own Lambda Function for Nursing Skill](#2create-your-own-lambda-function-to-your-alexa-skill)
 ### [3. Create your own DynamoDB table](#3create-your-own-dynamodb-table)
 ### [4. Customizing Nursing Skill](#4customizing-nursing-skill)
@@ -37,10 +37,10 @@ You can also download a CSV file with your keys!
 
 ### Step #6: Access your Raspberry Pi using SSH and configure awscli
 
-Open ssh: ssh pi@RASP-IP-ADDRESSS
-Type: aws configure
-Enter your keys
-Choose us-east-1 as region
-Choose json as output
+* Open ssh: ssh pi@RASP-IP-ADDRESSS
+* Type: aws configure
+* Enter your keys
+* Choose us-east-1 as region
+* Choose json as output
 
 ![screen](/images/raspberry-config/06.png) 
