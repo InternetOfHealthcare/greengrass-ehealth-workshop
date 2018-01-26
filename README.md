@@ -46,27 +46,27 @@ You can also download a CSV file with your keys!
 
 ![screen](/images/raspberry-config/06.png) 
 
-### Step #7:  
+### Step #7: Select your User  
 ![screen](/images/raspberry-config/07.png) 
 
-### Step #8: 
+### Step #8: Click "Add permissions"
 ![screen](/images/raspberry-config/08.png) 
 
-### Step #9:  
+### Step #9: Click "Attach existing policies directly"
 ![screen](/images/raspberry-config/09.png) 
 
-### Step #10:  
+### Step #10: Choose "AdministratorAccess"  
 ![screen](/images/raspberry-config/10.png) 
 
-### Step #11:  
+### Step #11: Choose "AmazonDynamoDBFullAccess"
 ![screen](/images/raspberry-config/11.png) 
 
-### Step #12:  
+### Step #12: Choose "AWSGreengrassFullAccess"
 ![screen](/images/raspberry-config/12.png) 
 
-### Step #13:  
+### Step #13: Choose "AWSIoTFullAccess" and click "Next Review"
 ![screen](/images/raspberry-config/13.png) 
 
-### Step #14:  
+### Step #14: Click "Add permission" and done!
 ![screen](/images/raspberry-config/14.png) 
 
