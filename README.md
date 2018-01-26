@@ -30,8 +30,17 @@ Before we start using Greengrass we need to configure our Raspberry PI AWS crede
 ### Step #4: Click "Create Access Key" 
 ![screen](/images/raspberry-config/04.png) 
 
-### Step #25: Copy the Access Key ID and Secret Access
+### Step #5: Copy the Access Key ID and Secret Access
 
 You can also download a CSV file with your keys!
-
 ![screen](/images/raspberry-config/05.png) 
+
+### Step #6: Access your Raspberry Pi using SSH and configure awscli
+
+Open ssh: ssh pi@RASP-IP-ADDRESSS
+Type: aws configure
+Enter your keys
+Choose us-east-1 as region
+Choose json as output
+
+![screen](/images/raspberry-config/06.png) 
