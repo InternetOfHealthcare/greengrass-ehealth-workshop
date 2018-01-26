@@ -9,12 +9,13 @@ Greengrass is a software that allows you to extend AWS cloud capabilities to loc
 
 ## Table of Content
 
-* [1. Configure your Raspberry Pi](#1configure-your-raspberry-pi)
-* [2. Create your own Lambda Function for Nursing Skill](#2create-your-own-lambda-function-to-your-alexa-skill)
-* [3. Create your own DynamoDB table](#3create-your-own-dynamodb-table)
-* [4. Customizing Nursing Skill](#4customizing-nursing-skill)
+* [Configure your Raspberry Pi](#1configure-permissions-and-raspberry-pi)
+* [Configure AWS Permissions](#2create-your-own-lambda-function-to-your-alexa-skill)
+* [Create Greengrass Group](#3create-your-own-dynamodb-table)
+* [Deploy your First Lambda to your Raspberry Pi](#4customizing-nursing-skill)
+* [Reading Bluetooth Blood Pressure Sensor](#4customizing-nursing-skill)
 
-## 1.Configure your Raspberry Pi
+## 1.Configure Permissions and Raspberry Pi
 
 Before we start using Greengrass we need to configure our Raspberry PI AWS credentials for awscli and also be sure you have access to your Pi using SSH.
 
@@ -44,3 +45,28 @@ You can also download a CSV file with your keys!
 * Choose json as output
 
 ![screen](/images/raspberry-config/06.png) 
+
+### Step #7:  
+![screen](/images/raspberry-config/07.png) 
+
+### Step #8: 
+![screen](/images/raspberry-config/08.png) 
+
+### Step #9:  
+![screen](/images/raspberry-config/09.png) 
+
+### Step #10:  
+![screen](/images/raspberry-config/10.png) 
+
+### Step #11:  
+![screen](/images/raspberry-config/11.png) 
+
+### Step #12:  
+![screen](/images/raspberry-config/12.png) 
+
+### Step #13:  
+![screen](/images/raspberry-config/13.png) 
+
+### Step #14:  
+![screen](/images/raspberry-config/14.png) 
+
