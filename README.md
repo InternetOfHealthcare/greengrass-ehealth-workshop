@@ -10,7 +10,7 @@ Greengrass is a software that allows you to extend AWS cloud capabilities to loc
 ## Table of Content
 
 * [Configure your Raspberry Pi](#1configure-permissions-and-raspberry-pi)
-* [Create Lambda Function](#2create-lambda-function)
+* [Create Lambda Function](#2create-a-lambda-function)
 * [Create Greengrass Group](#3create-your-own-dynamodb-table)
 * [Deploy your First Lambda to your Raspberry Pi](#4customizing-nursing-skill)
 * [Reading Bluetooth Blood Pressure Sensor](#4customizing-nursing-skill)
