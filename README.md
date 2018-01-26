@@ -1,5 +1,5 @@
 ![logo](/images/greengrass.png)
-# AWS Greengrass Workshop
+# AWS Healthcare Greengrass Workshop
 
 ## Introduction
 Greengrass is a software that allows you to extend AWS cloud capabilities to local devices, making it possible to collect data and securely communicate with local network and AWS Cloud. Fits very well for IoT solutions as gateway that need to communicate with Bluetooth, Zigbee or any other type of device communication.
@@ -74,35 +74,39 @@ You can also download a CSV file with your keys!
 
 Now we are going to create a Lambda function that we will deploy to our Raspberry Pi later. This Lambda will be sending simulated blood pressure data.
 
-### Step #: 
-![screen](/images/lambsa/0.png) 
+### Step #1: 
+![screen](/images/lambda/01.png) 
 
-### Step #: 
-![screen](/images/lambsa/0.png) 
+### Step #2: 
+![screen](/images/lambda/02.png) 
 
-### Step #: 
-![screen](/images/lambsa/0.png) 
+### Step #3: 
+![screen](/images/lambda/03.png) 
 
-### Step #: 
-![screen](/images/lambsa/0.png) 
+### Step #4: 
+![screen](/images/lambda/04.png) 
 
-### Step #: 
-![screen](/images/lambsa/0.png) 
+### Step #5: 
+![screen](/images/lambda/05.png) 
 
-### Step #: 
-![screen](/images/lambsa/0.png) 
+### Step #6: 
+![screen](/images/lambda/06.png) 
 
-### Step #: 
-![screen](/images/lambsa/0.png) 
+### Step #7: 
+![screen](/images/lambda/07.png) 
 
-### Step #: 
-![screen](/images/lambsa/0.png) 
+### Step #8: 
+![screen](/images/lambda/08.png) 
 
-### Step #: 
-![screen](/images/lambsa/0.png) 
+### Step #9: 
+![screen](/images/lambda/09.png) 
 
-### Step #: 
-![screen](/images/lambsa/0.png) 
+### Step #10: 
+![screen](/images/lambda/10.png) 
+
+### Step #11: 
+![screen](/images/lambda/11.png) 
+
 
 ## 3.Create Greengrass Group
 
