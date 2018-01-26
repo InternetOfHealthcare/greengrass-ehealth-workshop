@@ -10,7 +10,7 @@ Greengrass is a software that allows you to extend AWS cloud capabilities to loc
 ## Table of Content
 
 * [Configure your Raspberry Pi](#1configure-permissions-and-raspberry-pi)
-* [Configure AWS Permissions](#2create-your-own-lambda-function-to-your-alexa-skill)
+* [Create Lambda Function](#2create-lambda-function)
 * [Create Greengrass Group](#3create-your-own-dynamodb-table)
 * [Deploy your First Lambda to your Raspberry Pi](#4customizing-nursing-skill)
 * [Reading Bluetooth Blood Pressure Sensor](#4customizing-nursing-skill)
@@ -46,7 +46,7 @@ You can also download a CSV file with your keys!
 
 ![screen](/images/raspberry-config/06.png) 
 
-### Step #7: Select your User  
+### Step #7: Return to IAM Console and select your user  
 ![screen](/images/raspberry-config/07.png) 
 
 ### Step #8: Click "Add permissions"
@@ -67,6 +67,83 @@ You can also download a CSV file with your keys!
 ### Step #13: Choose "AWSIoTFullAccess" and click "Next Review"
 ![screen](/images/raspberry-config/13.png) 
 
-### Step #14: Click "Add permission" and done!
+### Step #14: Click "Add permissions" and done!
 ![screen](/images/raspberry-config/14.png) 
+
+## 2.Create a Lambda Function
+
+Now we are going to create a Lambda function that we will deploy to our Raspberry Pi later. This Lambda will be sending simulated blood pressure data.
+
+### Step #: 
+![screen](/images/lambsa/0.png) 
+
+### Step #: 
+![screen](/images/lambsa/0.png) 
+
+### Step #: 
+![screen](/images/lambsa/0.png) 
+
+### Step #: 
+![screen](/images/lambsa/0.png) 
+
+### Step #: 
+![screen](/images/lambsa/0.png) 
+
+### Step #: 
+![screen](/images/lambsa/0.png) 
+
+### Step #: 
+![screen](/images/lambsa/0.png) 
+
+### Step #: 
+![screen](/images/lambsa/0.png) 
+
+### Step #: 
+![screen](/images/lambsa/0.png) 
+
+### Step #: 
+![screen](/images/lambsa/0.png) 
+
+## 3.Create Greengrass Group
+
+It's time to create a Greengrass Group that represents our Raspberry Pi as a Core Device.
+
+### Step #1: 
+![screen](/images/greengrass-group/01.png) 
+
+### Step #2: 
+![screen](/images/greengrass-group/02.png) 
+
+### Step #3: 
+![screen](/images/greengrass-group/03.png) 
+
+### Step #4: 
+![screen](/images/greengrass-group/04.png) 
+
+### Step #5: 
+![screen](/images/greengrass-group/05.png) 
+
+### Step #6: 
+![screen](/images/greengrass-group/06.png) 
+
+### Step #7: 
+![screen](/images/greengrass-group/07.png) 
+
+### Step #8: 
+![screen](/images/greengrass-group/08.png) 
+
+### Step #9: 
+![screen](/images/greengrass-group/09.png) 
+
+### Step #10: 
+![screen](/images/greengrass-group/10.png) 
+
+### Step #11: 
+![screen](/images/greengrass-group/11.png) 
+
+### Step #12: 
+![screen](/images/greengrass-group/12.png) 
+
+### Step #13: 
+![screen](/images/greengrass-group/13.png) 
 
