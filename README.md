@@ -11,8 +11,8 @@ Greengrass is a software that allows you to extend AWS cloud capabilities to loc
 
 * [Configure your Raspberry Pi](#1configure-permissions-and-raspberry-pi)
 * [Create Lambda Function](#2create-a-lambda-function)
-* [Create Greengrass Group](#3create-your-own-dynamodb-table)
-* [Deploy your First Lambda to your Raspberry Pi](#4customizing-nursing-skill)
+* [Create Greengrass Group](#3create-greengrass-group)
+* [Deploy Lambda to your Raspberry Pi](#4deploy-lambda-to-your-raspberry-pi)
 * [Reading Bluetooth Blood Pressure Sensor](#4customizing-nursing-skill)
 
 ## 1.Configure Permissions and Raspberry Pi
@@ -151,3 +151,72 @@ It's time to create a Greengrass Group that represents our Raspberry Pi as a Cor
 ### Step #13: 
 ![screen](/images/greengrass-group/13.png) 
 
+## 4.Deploy Lambda to your Raspberry Pi
+
+Let's deploy our Lambda function to run locally in our Raspberry Pi.
+
+### Step #1: 
+![screen](/images/greengrass-deployment/01.png) 
+
+### Step #2: 
+![screen](/images/greengrass-deployment/02.png) 
+
+### Step #3: 
+![screen](/images/greengrass-deployment/03.png) 
+
+### Step #4: 
+![screen](/images/greengrass-deployment/04.png) 
+
+### Step #5: 
+![screen](/images/greengrass-deployment/05.png) 
+
+### Step #6: 
+![screen](/images/greengrass-deployment/06.png) 
+
+### Step #7: 
+![screen](/images/greengrass-deployment/07.png) 
+
+### Step #8: 
+![screen](/images/greengrass-deployment/08.png) 
+
+### Step #9: 
+![screen](/images/greengrass-deployment/09.png) 
+
+### Step #10: 
+![screen](/images/greengrass-deployment/10.png) 
+
+### Step #11: 
+![screen](/images/greengrass-deployment/11.png) 
+
+### Step #12: 
+![screen](/images/greengrass-deployment/12.png) 
+
+### Step #13: 
+![screen](/images/greengrass-deployment/13.png) 
+
+### Step #14: 
+![screen](/images/greengrass-deployment/14.png) 
+
+### Step #15: 
+![screen](/images/greengrass-deployment/15.png) 
+
+### Step #16: 
+![screen](/images/greengrass-deployment/16.png) 
+
+### Step #17: 
+![screen](/images/greengrass-deployment/17.png) 
+
+### Step #18: 
+![screen](/images/greengrass-deployment/18.png) 
+
+### Step #19: 
+![screen](/images/greengrass-deployment/19.png) 
+
+### Step #20: 
+![screen](/images/greengrass-deployment/20.png) 
+
+### Step #21: 
+![screen](/images/greengrass-deployment/21.png) 
+
+### Step #22: 
+![screen](/images/greengrass-deployment/22.png) 
