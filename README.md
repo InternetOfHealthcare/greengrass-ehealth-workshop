@@ -151,68 +151,59 @@ It's time to create a Greengrass Group that represents our Raspberry Pi as a Cor
 
 Let's deploy our Lambda function to run locally in our Raspberry Pi.
 
-### Step #1: 
+### Step #1: Open Greengrass console, select "healthcare" group and click "Lambdas"
 ![screen](/images/greengrass-deployment/01.png) 
 
-### Step #2: 
+### Step #2: Select "Use existing Lambda"
 ![screen](/images/greengrass-deployment/02.png) 
 
-### Step #3: 
+### Step #3: Select "helthcare-data-generator" Lambda
 ![screen](/images/greengrass-deployment/03.png) 
 
-### Step #4: 
+### Step #4: Select the published version
 ![screen](/images/greengrass-deployment/04.png) 
 
-### Step #5: 
+### Step #5: Click "Edit configuration"
 ![screen](/images/greengrass-deployment/05.png) 
 
-### Step #6: 
+### Step #6: Change Lambda Life-cycle to Long-lived function
 ![screen](/images/greengrass-deployment/06.png) 
 
-### Step #7: 
+### Step #7: Your configuration should be like this
 ![screen](/images/greengrass-deployment/07.png) 
 
-### Step #8: 
+### Step #8: Back to healthcare group and click "Subscriptions"
 ![screen](/images/greengrass-deployment/08.png) 
 
-### Step #9: 
-![screen](/images/greengrass-deployment/09.png) 
-
-### Step #10: 
-![screen](/images/greengrass-deployment/10.png) 
-
-### Step #11: 
-![screen](/images/greengrass-deployment/11.png) 
-
-### Step #12: 
+### Step #12: Select "Lambdas -> healthcare-data-genertor" as Source
 ![screen](/images/greengrass-deployment/12.png) 
 
-### Step #13: 
+### Step #13: Selecr "IoT Cloud" as Target
 ![screen](/images/greengrass-deployment/13.png) 
 
-### Step #14: 
+### Step #14: With this subscrition our Lambda will be able to reach any topic in the Cloud
 ![screen](/images/greengrass-deployment/14.png) 
 
-### Step #15: 
+### Step #15: Click finish
 ![screen](/images/greengrass-deployment/15.png) 
 
-### Step #16: 
+### Step #16: Now let's deploy by clicking "Actions -> Deploy"  menu
 ![screen](/images/greengrass-deployment/16.png) 
 
-### Step #17: 
+### Step #17: Click "Automatic detection"
 ![screen](/images/greengrass-deployment/17.png) 
 
-### Step #18: 
+### Step #18: Grant the required permissions
 ![screen](/images/greengrass-deployment/18.png) 
 
-### Step #19: 
+### Step #19: In Group Role click "Add role" link
 ![screen](/images/greengrass-deployment/19.png) 
 
-### Step #20: 
+### Step #20: Choose "Greengrass_ServiceRole" and click "Save"
 ![screen](/images/greengrass-deployment/20.png) 
 
-### Step #21: 
+### Step #21: Now let's do the final deploy, click "Actions -> Deploy" again
 ![screen](/images/greengrass-deployment/21.png) 
 
-### Step #22: 
+### Step #22: You should see "Successfully completed message"
 ![screen](/images/greengrass-deployment/22.png) 
