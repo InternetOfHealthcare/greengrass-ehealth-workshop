@@ -91,29 +91,17 @@ Now we are going to create a Lambda function that we will deploy to our Raspberr
 
 ![screen](/images/lambda/03.png) 
 
-### Step #4: 
+### Step #4: Click "Upload" and select the .ZIP file downloaded in the previous step and then click "Save"
 ![screen](/images/lambda/04.png) 
 
-### Step #5: 
+### Step #5: Select "Edit code line" in "Code entry type" to see the Lambda code
 ![screen](/images/lambda/05.png) 
 
-### Step #6: 
+### Step #6: Click "Actions -> Publish new version" 
 ![screen](/images/lambda/06.png) 
 
-### Step #7: 
+### Step #7: Name it "v1" and done! 
 ![screen](/images/lambda/07.png) 
-
-### Step #8: 
-![screen](/images/lambda/08.png) 
-
-### Step #9: 
-![screen](/images/lambda/09.png) 
-
-### Step #10: 
-![screen](/images/lambda/10.png) 
-
-### Step #11: 
-![screen](/images/lambda/11.png) 
 
 
 ## 3.Create Greengrass Group
