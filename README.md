@@ -74,13 +74,20 @@ You can also download a CSV file with your keys!
 
 Now we are going to create a Lambda function that we will deploy to our Raspberry Pi later. This Lambda will be sending simulated blood pressure data.
 
-### Step #1: 
+### Step #1: Open Lambda Console and click "Create a function"
 ![screen](/images/lambda/01.png) 
 
-### Step #2: 
+### Step #2: Select "Author from scratch"
+* Name: healthcare-data-generator
+* Runtime: Python 2.7
+* Existing Role: lambda_basic_execution
+
 ![screen](/images/lambda/02.png) 
 
-### Step #3: 
+### Step #3: Scroll down to Function code panel
+
+* Select "Upload a .zip file" in "Code entry type" combo
+
 ![screen](/images/lambda/03.png) 
 
 ### Step #4: 
