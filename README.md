@@ -85,8 +85,8 @@ Now we are going to create a Lambda function that we will deploy to our Raspberr
 ![screen](/images/lambda/02.png) 
 
 ### Step #3: Scroll down to Function code panel
-
-* Select "Upload a .zip file" in "Code entry type" combo
+* Download ![this .ZIP project](https://github.com/InternetOfHealthcare/greengrass/blob/master/src/healthcare-data-generator.zip) to your machine
+* Select "Upload a .ZIP file" in "Code entry type" combo
 
 ![screen](/images/lambda/03.png) 
 
