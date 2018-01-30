@@ -108,43 +108,43 @@ Now we are going to create a Lambda function that we will deploy to our Raspberr
 
 It's time to create a Greengrass Group that represents our Raspberry Pi as a Core Device.
 
-### Step #1: 
+### Step #1: Open Greengrass console and click "Get started" to create a group
 ![screen](/images/greengrass-group/01.png) 
 
-### Step #2: 
+### Step #2: Select "Use easy creation"
 ![screen](/images/greengrass-group/02.png) 
 
-### Step #3: 
+### Step #3: Name your group as "healthcare"
 ![screen](/images/greengrass-group/03.png) 
 
-### Step #4: 
-![screen](/images/greengrass-group/04.png) 
+### Step #4: Accept the suggested core name
+![screen](/images/greengrass-group/04.png) 	
 
-### Step #5: 
+### Step #5: Click "Create group and core"
 ![screen](/images/greengrass-group/05.png) 
 
-### Step #6: 
+### Step #6: Click "Download these resoures as .tar.gz"
 ![screen](/images/greengrass-group/06.png) 
 
-### Step #7: 
+### Step #7: Download Greengrass security resources to your machine
 ![screen](/images/greengrass-group/07.png) 
 
-### Step #8: 
+### Step #8: Click "Finish"
 ![screen](/images/greengrass-group/08.png) 
 
-### Step #9: 
+### Step #9: Access your Raspberry Pi and type this command to create a fresh Greengrass core
 ![screen](/images/greengrass-group/09.png) 
 
-### Step #10: 
+### Step #10: Type "cd greengrass"
 ![screen](/images/greengrass-group/10.png) 
 
-### Step #11: 
+### Step #11: Upload your .tar.gz security resources file and uncompress into Greengrass directory
 ![screen](/images/greengrass-group/11.png) 
 
-### Step #12: 
+### Step #12: Type these commands to copy the root.ca.pem certificatre
 ![screen](/images/greengrass-group/12.png) 
 
-### Step #13: 
+### Step #13: Now you can start your Greengrass core!
 ![screen](/images/greengrass-group/13.png) 
 
 ## 4.Deploy Lambda to your Raspberry Pi
