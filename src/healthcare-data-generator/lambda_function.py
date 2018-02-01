@@ -16,7 +16,7 @@ import greengrasssdk
 import platform
 from threading import Timer
 import time
-
+from random import *
 
 # Creating a greengrass core sdk client
 client = greengrasssdk.client('iot-data')
@@ -33,13 +33,16 @@ my_platform = platform.platform()
 # a result.
 
 def greengrass_hello_world_run():
-    if not my_platform:
-        client.publish(topic='healthcare/data', payload='Hello world! Sent from Greengrass Core.')
-    else:
-        client.publish(topic='healthcare/data', payload='Hello world! Sent from Greengrass Core running on platform: {}'.format(my_platform))
+    timestamp = str(time.time())
+    systolic = randint(90,125)
+    diastolic = randint(59,89)
+    bpm = randint(60,120)
+    bpjson = '{"data_id" : "bp", "ts" : "' + timestamp + '", "systolic" : ' + str(systolic) + ',"diastolic" : ' + str(diastolic) + ',"bpm" : ' + str(bpm) + '}'
+
+    client.publish(topic='healthcare/data', payload=bpjson)
 
     # Asynchronously schedule this function to be run again in 5 seconds
-    Timer(5, greengrass_hello_world_run).start()
+    Timer(15, greengrass_hello_world_run).start()
 
 
 # Execute the function above

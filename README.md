@@ -207,3 +207,4 @@ Let's deploy our Lambda function to run locally in our Raspberry Pi.
 
 ### Step #22: You should see "Successfully completed message"
 ![screen](/images/greengrass-deployment/22.png) 
+
