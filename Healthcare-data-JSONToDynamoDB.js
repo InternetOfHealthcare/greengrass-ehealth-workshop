@@ -19,6 +19,7 @@ exports.handler = (event, context, callback) => {
 	dynamoDB.put(params, function(err, data){
 		callback(err, data);
 	});
+	
     callback(null, 'Hello from Lambda');
     
 };
