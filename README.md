@@ -13,6 +13,7 @@ Greengrass is a software that allows you to extend AWS cloud capabilities to loc
 * [Create Lambda Function](#2create-a-lambda-function)
 * [Create Greengrass Group](#3create-greengrass-group)
 * [Deploy Lambda to your Raspberry Pi](#4deploy-lambda-to-your-raspberry-pi)
+* [Monitor AWS IoT Messages](#5monitor-)
 * [Reading Bluetooth Blood Pressure Sensor](#4customizing-nursing-skill)
 
 ## 1.Configure Permissions and Raspberry Pi
@@ -207,4 +208,11 @@ Let's deploy our Lambda function to run locally in our Raspberry Pi.
 
 ### Step #22: You should see "Successfully completed message"
 ![screen](/images/greengrass-deployment/22.png) 
+
+## 5.Monitor AWS IoT Messages
+
+Now it's time to monitor AWS IoT to check for incoming MQTT messages from your Raspberry Pi.
+
+### Step #1: Open AWS IoT Console
+
 
