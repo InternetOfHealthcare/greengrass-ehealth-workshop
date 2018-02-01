@@ -1,5 +1,4 @@
 const AWS = require('aws-sdk');
-
 const dynamoDB = new AWS.DynamoDB.DocumentClient();
 const uuid = require('uuid');
 
@@ -10,7 +9,7 @@ exports.handler = (event, context, callback) => {
 	var params = {
 		Item : {
 		    "id" : uuid.v1(),
-			"name" : "Vinicius",
+			"name" : "<<name>>",
 			"bpm" : event.bpm,
 			"sistolic" : event.systolic,
 			"diastolic" : event.diastolic,
