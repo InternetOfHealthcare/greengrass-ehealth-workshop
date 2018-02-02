@@ -280,3 +280,72 @@ Now that we simulated the blood pressure and heart beat data, we will progress t
 We are going to use a Python script to control and collect the readout from the blood pressure sensor:
 
 ![screen](/images/greengrass-bp-ble.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/01.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/02.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/03.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/04.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/05.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/06.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/07.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/08.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/09.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/10.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/11.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/12.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/13.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/14.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/15.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/16.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/17.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/18.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/19.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/20.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/21.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/22.png) 
+
+### Step #: 
+![screen](/images/bloodpressure-ble/23.png) 
