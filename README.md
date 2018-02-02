@@ -277,3 +277,6 @@ Now that we simulated the blood pressure and heart beat data, we will progress t
 
 ![screen](/images/blood-pressure-ble.png) 
 
+We are going to use a Python script to control and collect the readout from the blood pressure sensor:
+
+![screen](/images/greengrass-bp-ble.png) 
