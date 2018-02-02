@@ -2,7 +2,8 @@
 # AWS Healthcare Greengrass Workshop
 
 ## Introduction
-Greengrass is a software that allows you to extend AWS cloud capabilities to local devices, making it possible to collect data and securely communicate with local network and AWS Cloud. Fits very well for IoT solutions as gateway that need to communicate with Bluetooth, Zigbee or any other type of device communication.
+![logo](/images/greengrass.png)
+Greengrass is a software that allows you to extend AWS cloud capabilities to local devices, making it possible to collect data and securely communicate with local network and AWS Cloud. Fits very well for IoT solutions as gateway that could handle communication with Bluetooth, Zigbee devices, for example.
 
 ![More information about Green Grass](https://docs.aws.amazon.com/greengrass/latest/developerguide/what-is-gg.html)
 
@@ -14,7 +15,7 @@ Greengrass is a software that allows you to extend AWS cloud capabilities to loc
 * [Create Greengrass Group](#3create-greengrass-group)
 * [Deploy Lambda to your Raspberry Pi](#4deploy-lambda-to-your-raspberry-pi)
 * [Monitoring and Processing AWS IoT Messages](#5monitoring-and-processing-aws-iot-messages)
-* [Reading Bluetooth Blood Pressure Sensor](#4customizing-nursing-skill)
+* [Greengrass Controlling Bluetooth Blood Pressure Sensor](#6greengrass-controlling-bluetooth-blood-pressure-sensor)
 
 ## 1.Configure Permissions and Raspberry Pi
 
@@ -261,5 +262,5 @@ Now it's time to monitor AWS IoT to check for incoming MQTT messages from your R
 ![screen](/images/iot-messages/12.png) 
 
 
-
+## 6.Greengrass Controlling Bluetooth Blood Pressure Sensor
 
