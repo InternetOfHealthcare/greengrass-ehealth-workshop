@@ -6,12 +6,16 @@ Greengrass is a software that allows you to extend AWS cloud capabilities to loc
 
 ![logo](/images/gg1.png)
 
-![More information about Green Grass](https://docs.aws.amazon.com/greengrass/latest/developerguide/what-is-gg.html)
-
 ### Greengrass Group, Core and Devices
+nonon nonon onono nonono onon onononon 
+
+* Greengrass Core:
+* Greengrass Group:
+* Greengrass Device:
 
 ![logo](/images/gg2.png)
 
+![More information about Green Grass](https://docs.aws.amazon.com/greengrass/latest/developerguide/what-is-gg.html)
 
 ## Table of Content
 
@@ -268,4 +272,8 @@ Now it's time to monitor AWS IoT to check for incoming MQTT messages from your R
 
 
 ## 6.Greengrass Controlling Bluetooth Blood Pressure Sensor
+
+Now that we simulated the blood pressure and heart beat data, we will progress to a real example using a Bluetooth Low-energy Blood Pressure monitor. For this case we are using Libelium / MySignals that provides an open platform for e-helath hardware and software development.
+
+![screen](/images/blood-pressure-ble.png) 
 
