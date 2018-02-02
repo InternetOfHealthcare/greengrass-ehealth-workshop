@@ -2,10 +2,14 @@
 # AWS Healthcare Greengrass Workshop
 
 ## Introduction
-![logo](/images/greengrass.png)
+![logo](/images/gg1.png)
 Greengrass is a software that allows you to extend AWS cloud capabilities to local devices, making it possible to collect data and securely communicate with local network and AWS Cloud. Fits very well for IoT solutions as gateway that could handle communication with Bluetooth, Zigbee devices, for example.
 
 ![More information about Green Grass](https://docs.aws.amazon.com/greengrass/latest/developerguide/what-is-gg.html)
+
+###Greengrass Group, Core and Devices
+
+![logo](/images/gg2.png)
 
 
 ## Table of Content
