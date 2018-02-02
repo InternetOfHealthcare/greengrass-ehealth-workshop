@@ -8,7 +8,7 @@ Greengrass is a software that allows you to extend AWS cloud capabilities to loc
 
 ![More information about Green Grass](https://docs.aws.amazon.com/greengrass/latest/developerguide/what-is-gg.html)
 
-###Greengrass Group, Core and Devices
+### Greengrass Group, Core and Devices
 
 ![logo](/images/gg2.png)
 
