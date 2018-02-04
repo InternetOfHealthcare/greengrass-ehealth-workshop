@@ -319,32 +319,32 @@ We are going to use a Python script to control and collect the readout from the 
 ### Step #13: Select the version and click finish
 ![screen](/images/bloodpressure-ble/13.png) 
 
-### Step #14: Go to Subscritions menu
+### Step #14: Go to Subscritions menu and click "Add Subscription"
 ![screen](/images/bloodpressure-ble/14.png) 
 
-### Step #15: 
+### Step #15: Select "BloodPressureBLE" Lambda as Source and IoT Cloud as target
 ![screen](/images/bloodpressure-ble/15.png) 
 
-### Step #16: 
+### Step #16: Enter "healthcare/data" as filter topic
 ![screen](/images/bloodpressure-ble/16.png) 
 
-### Step #17: 
+### Step #17: Click "Finish" to confirm the subscription
 ![screen](/images/bloodpressure-ble/17.png) 
 
-### Step #18: 
+### Step #18: Add a new Subscrition and Select IoT Cloud as source and "BloodPressureBLE" Lambda as target
 ![screen](/images/bloodpressure-ble/18.png) 
 
-### Step #19: 
+### Step #19: As filter topic, enter "healthcare/bloodpressure". This is the topic that will trigger the lambda / blood pressure sensor.
 ![screen](/images/bloodpressure-ble/19.png) 
 
-### Step #20: 
+### Step #20: Click finish to confirm the subscription
 ![screen](/images/bloodpressure-ble/20.png) 
 
-### Step #21: 
+### Step #21: Go to Deployments and Click "Actions -> Deploy"
 ![screen](/images/bloodpressure-ble/21.png) 
 
-### Step #22: 
+### Step #22: After the deplotyment, go to AWS IoT Console and click "Test"
 ![screen](/images/bloodpressure-ble/22.png) 
 
-### Step #23: 
+### Step #23: Click "Publish to a topic", enter "healthcare/bloodpressure" as a topic and click "Publish to topic". If everything is working the blood pressure sensor should start working! You need to change the bluetooth Mac addrress to yours!  
 ![screen](/images/bloodpressure-ble/23.png) 
