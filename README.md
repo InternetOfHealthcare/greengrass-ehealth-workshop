@@ -7,11 +7,10 @@ Greengrass is a software that allows you to extend AWS cloud capabilities to loc
 ![logo](/images/gg1.png)
 
 ### Greengrass Group, Core and Devices
-nonon nonon onono nonono onon onononon 
 
-* Greengrass Core:
-* Greengrass Group:
-* Greengrass Device:
+* Greengrass Group: a set of Cores and Devices
+* Greengrass Core: a set of lambdas and devices, runs greengrass daemon
+* Greengrass Device: small devices, no greengrass daemon
 
 ![logo](/images/gg2.png)
 
@@ -281,13 +280,13 @@ We are going to use a Python script to control and collect the readout from the 
 
 ![screen](/images/greengrass-bp-ble.png) 
 
-### Step #: 
+### Step #: Open your Lambda console and create a new Python 2.7 function
 ![screen](/images/bloodpressure-ble/01.png) 
 
-### Step #: 
+### Step #: Select "Upload a .ZIP file"
 ![screen](/images/bloodpressure-ble/02.png) 
 
-### Step #: 
+### Step #: Download ![this .zip project file](https://github.com/InternetOfHealthcare/greengrass/blob/master/src/bloodpressure-ble/bloodpressure-ble.zip) and upload to your function
 ![screen](/images/bloodpressure-ble/03.png) 
 
 ### Step #: 
