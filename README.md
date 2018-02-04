@@ -280,37 +280,37 @@ We are going to use a Python script to control and collect the readout from the 
 
 ![screen](/images/greengrass-bp-ble.png) 
 
-### Step #: Open your Lambda console and create a new Python 2.7 function
+### Step #1: Open your Lambda console and create a new Python 2.7 function
 ![screen](/images/bloodpressure-ble/01.png) 
 
-### Step #: Select "Upload a .ZIP file"
+### Step #2: Select "Upload a .ZIP file"
 ![screen](/images/bloodpressure-ble/02.png) 
 
-### Step #: Download ![this .zip project file](https://github.com/InternetOfHealthcare/greengrass/blob/master/src/bloodpressure-ble/bloodpressure-ble.zip) and upload to your function
+### Step #3: Download ![this .zip project file](https://github.com/InternetOfHealthcare/greengrass/blob/master/src/bloodpressure-ble/bloodpressure-ble.zip) and upload to your function
 ![screen](/images/bloodpressure-ble/03.png) 
 
-### Step #: 
+### Step #4: Click "Save"
 ![screen](/images/bloodpressure-ble/04.png) 
 
-### Step #: 
+### Step #5: You should see the source code in Python to communicate with BLE blood pressure sensor
 ![screen](/images/bloodpressure-ble/05.png) 
 
-### Step #: 
+### Step #6: Click "Actions" and "Publish new version"
 ![screen](/images/bloodpressure-ble/06.png) 
 
-### Step #: 
+### Step #7: Name the version
 ![screen](/images/bloodpressure-ble/07.png) 
 
-### Step #: 
+### Step #8: Return to your Greengrass console and select your Greeengrass group
 ![screen](/images/bloodpressure-ble/08.png) 
 
-### Step #: 
+### Step #9: Click "Lambdas" and "Add Lambda"
 ![screen](/images/bloodpressure-ble/09.png) 
 
-### Step #: 
+### Step #10: Click "Use existing Lambda"
 ![screen](/images/bloodpressure-ble/10.png) 
 
-### Step #: 
+### Step #11: Select "BloodPressureBLE" Lambda function
 ![screen](/images/bloodpressure-ble/11.png) 
 
 ### Step #: 
