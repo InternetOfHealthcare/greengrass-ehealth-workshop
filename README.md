@@ -313,38 +313,38 @@ We are going to use a Python script to control and collect the readout from the 
 ### Step #11: Select "BloodPressureBLE" Lambda function
 ![screen](/images/bloodpressure-ble/11.png) 
 
-### Step #: 
+### Step #12: Click "Next" 
 ![screen](/images/bloodpressure-ble/12.png) 
 
-### Step #: 
+### Step #13: Select the version and click finish
 ![screen](/images/bloodpressure-ble/13.png) 
 
-### Step #: 
+### Step #14: Go to Subscritions menu
 ![screen](/images/bloodpressure-ble/14.png) 
 
-### Step #: 
+### Step #15: 
 ![screen](/images/bloodpressure-ble/15.png) 
 
-### Step #: 
+### Step #16: 
 ![screen](/images/bloodpressure-ble/16.png) 
 
-### Step #: 
+### Step #17: 
 ![screen](/images/bloodpressure-ble/17.png) 
 
-### Step #: 
+### Step #18: 
 ![screen](/images/bloodpressure-ble/18.png) 
 
-### Step #: 
+### Step #19: 
 ![screen](/images/bloodpressure-ble/19.png) 
 
-### Step #: 
+### Step #20: 
 ![screen](/images/bloodpressure-ble/20.png) 
 
-### Step #: 
+### Step #21: 
 ![screen](/images/bloodpressure-ble/21.png) 
 
-### Step #: 
+### Step #22: 
 ![screen](/images/bloodpressure-ble/22.png) 
 
-### Step #: 
+### Step #23: 
 ![screen](/images/bloodpressure-ble/23.png) 
